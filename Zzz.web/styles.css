@@ -1,0 +1,48 @@
+H1{
+    color: rgb(83, 239, 101);
+    text-align: center;
+
+}
+H2{
+    color: rgb(182, 248, 182);
+    text-align: center;
+}
+H3{
+    color: darkgray;
+    text-align: start;
+}
+H4{
+    color: darkseagreen;
+    text-align: center;
+}
+body{
+    color: black;
+    background-color: black;
+}
+p{
+    color: rgb(180, 237, 180);
+    text-align: center;
+}
+ul{
+    color: rgb(180, 237, 180);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav:hover{
+    background-color: pink;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.galeria img{
+    width: 200px;
+    border-radius: 10px;
+}
+.galeria img:hover{
+    transform: scale(1.1);
+}
